@@ -1,0 +1,11 @@
+public class Ativ11 {
+    public static void main(String[] args) {
+        int numero = 12; // &&
+
+    if (numero % 2 == 0 && numero > 0) {
+        System.out.println(numero + " ele é par e positivo");
+    } else {
+        System.out.print(numero + " ele não é um par e positivo");
+    }
+    }
+}
