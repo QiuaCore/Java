@@ -1,0 +1,21 @@
+public class Ativ16 {
+    public static void classificarNota(double nota) { // Dando nome ao metodo para definir os parametros
+        if (nota >= 9) {
+            System.out.println("Nota " + nota + ": Excelente"); // "else if" segue como um ordem de perguntas
+        } else if (nota >= 7) {
+            System.out.println("Nota " + nota + ": Bom"); // neste caso, definimos o valor maior primeiro para otimizar sua leitura
+        } else if (nota >= 5) {
+            System.out.println("Nota " + nota + ": Regular"); // desta forma ele não precisa ir ate o final para definir o parametro adequado.
+        } else {
+            System.out.println("Nota " + nota + ": Insuficiente");
+        }
+    }
+    public static void main(String[] args) {
+        double notaA = 10, notaB = 3, notaC = 5, notaD = 7; // aqui definimos no main os valores que receberão os parametros
+
+        classificarNota(notaA); // Similar a um Spring com excessão de que ele pega o metodo + parametro
+        classificarNota(notaB); // declarando a nota em questão e seu resultado.
+        classificarNota(notaC); // não há necessidade de impor Spring no final, pois tanto ele quanto valor a se verificar
+        classificarNota(notaD); // foram definidos dentro dos parametros.
+    }
+}

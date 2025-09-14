@@ -1,0 +1,11 @@
+public class Ativ12 {
+    public static void main(String[] args) {
+        int numero = -45;
+
+        if (numero < 0 || numero > 100 ) {
+            System.out.println(numero + " Atende a condição");
+        } else {
+                System.out.println(numero + "Não atende");
+            }
+        }
+    }
